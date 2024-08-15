@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoe Store</title>
+    <title>Shoe Store | Buy Quality Footwear Online</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .card img {
+            height: 300px;
+            object-fit: cover;
+        }
+        .card-title {
+            font-weight: bold;
+        }
+        .footer-link {
+            color: #6c757d;
+            text-decoration: none;
+        }
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,6 +46,9 @@
                         <a class="nav-link" href="#">Products</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
@@ -32,13 +58,13 @@
 
     <div class="container my-5">
         <h1 class="text-center">Welcome to Our Shoe Store</h1>
-        <p class="text-center">Find the perfect shoes for any occasion</p>
+        <p class="text-center">Find the perfect shoes for any occasion at unbeatable prices.</p>
 
         <div class="row">
             <!-- Shoe 1 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY0FhkfoWbfYnine81xIimVtfhyQKJ3pPWKlL_nGPEPvgIrQ5Asi7CAG2d8NT9jSJTmy0&usqp=CAU" class="card-img-top" alt="Shoe 1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY0FhkfoWbfYnine81xIimVtfhyQKJ3pPWKlL_nGPEPvgIrQ5Asi7CAG2d8NT9jSJTmy0&usqp=CAU" class="card-img-top" alt="Running Shoes">
                     <div class="card-body">
                         <h5 class="card-title">Running Shoes</h5>
                         <p class="card-text">$99.99</p>
@@ -49,7 +75,7 @@
             <!-- Shoe 2 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9JG7MYRqeEQHhV9IYzWqYyrO9hQumqvLEcVrkhiyH82vAKnZM4Nz4A304xNl8kqUoYo&usqp=CAU" class="card-img-top" alt="Shoe 2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9JG7MYRqeEQHhV9IYzWqYyrO9hQumqvLEcVrkhiyH82vAKnZM4Nz4A304xNl8kqUoYo&usqp=CAU" class="card-img-top" alt="Casual Sneakers">
                     <div class="card-body">
                         <h5 class="card-title">Casual Sneakers</h5>
                         <p class="card-text">$79.99</p>
@@ -60,7 +86,7 @@
             <!-- Shoe 3 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://images.glowroad.com/faceview/b7a/ci/g7f/ci/imgs/fd505c97-5b40-4e51-ac1f-c5f75fafbca8_28652810-xlgn400x400.jpg?productId=P-19231237" class="card-img-top" alt="Shoe 3">
+                    <img src="https://images.glowroad.com/faceview/b7a/ci/g7f/ci/imgs/fd505c97-5b40-4e51-ac1f-c5f75fafbca8_28652810-xlgn400x400.jpg?productId=P-19231237" class="card-img-top" alt="Formal Shoes">
                     <div class="card-body">
                         <h5 class="card-title">Formal Shoes</h5>
                         <p class="card-text">$129.99</p>
@@ -74,7 +100,7 @@
             <!-- Shoe 4 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://assets.ajio.com/medias/sys_master/root/20220910/wafx/631b94a4f997dd1f8df3095d/-473Wx593H-450150709-nude-MODEL.jpg" class="card-img-top" alt="Shoe 4">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20220910/wafx/631b94a4f997dd1f8df3095d/-473Wx593H-450150709-nude-MODEL.jpg" class="card-img-top" alt="Sports Shoes">
                     <div class="card-body">
                         <h5 class="card-title">Sports Shoes</h5>
                         <p class="card-text">$89.99</p>
@@ -85,7 +111,7 @@
             <!-- Shoe 5 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://m.media-amazon.com/images/I/61V98P7+jiL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Shoe 5">
+                    <img src="https://m.media-amazon.com/images/I/61V98P7+jiL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Loafers">
                     <div class="card-body">
                         <h5 class="card-title">Loafers</h5>
                         <p class="card-text">$69.99</p>
@@ -96,7 +122,7 @@
             <!-- Shoe 6 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://cdn.thewirecutter.com/wp-content/media/2024/05/running-shoes-2048px-9718.jpg" class="card-img-top" alt="Shoe 6">
+                    <img src="https://cdn.thewirecutter.com/wp-content/media/2024/05/running-shoes-2048px-9718.jpg" class="card-img-top" alt="Boots">
                     <div class="card-body">
                         <h5 class="card-title">Boots</h5>
                         <p class="card-text">$149.99</p>
@@ -109,9 +135,56 @@
 
     <footer class="bg-light py-4 mt-5">
         <div class="container text-center">
-            <p>&copy; 2024 Shoe Store. All Rights Reserved.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#privacy-policy" class="footer-link">Privacy Policy</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#terms-of-service" class="footer-link">Terms of Service</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#contact-us" class="footer-link">Contact Us</a>
+                </div>
+            </div>
+            <p class="mt-3">&copy; 2024 Shoe Store. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- Privacy Policy Section -->
+    <section id="privacy-policy" class="container my-5">
+        <h2>Privacy Policy</h2>
+        <p>Your privacy is important to us. This privacy statement explains the personal data Shoe Store collects, how we process it, and for what purposes. By using our website, you consent to the data practices described in this policy.</p>
+        <h3>Information We Collect</h3>
+        <p>We collect personal information such as your name, email address, and payment information when you make a purchase or contact us through our website.</p>
+        <h3>How We Use Your Information</h3>
+        <p>We use your information to process orders, respond to inquiries, and improve our services. We may also use your data to send promotional emails if you have opted in.</p>
+        <h3>Data Security</h3>
+        <p>We take data security seriously and implement appropriate measures to protect your information.</p>
+    </section>
+
+    <!-- Terms of Service Section -->
+    <section id="terms-of-service" class="container my-5">
+        <h2>Terms of Service</h2>
+        <p>Welcome to Shoe Store. By accessing our website, you agree to comply with these terms and conditions.</p>
+        <h3>Use of the Website</h3>
+        <p>You may use our website for lawful purposes only. Any unauthorized use of the site may result in legal action.</p>
+        <h3>Product Information</h3>
+        <p>We strive to ensure the accuracy of product descriptions and prices. However, we reserve the right to correct any errors or inaccuracies.</p>
+        <h3>Limitation of Liability</h3>
+        <p>Shoe Store shall not be liable for any damages arising from the use of our website or products purchased through it.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="container my-5">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or concerns, please reach out to us. We are here to help!</p>
+        <h3>Email</h3>
+        <p>You can email us at <a href="mailto:contact@shoestore.com">contact@shoestore.com</a>.</p>
+        <h3>Phone</h3>
+        <p>Call us at (123) 456-7890.</p>
+        <h3>Address</h3>
+        <p>123 Shoe Store St., Fashion City, FC 12345</p>
+    </section>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
